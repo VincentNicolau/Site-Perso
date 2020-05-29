@@ -1,0 +1,318 @@
+a{
+    text-decoration:none;
+    color: #365899;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, a, p, li, input, select, label{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+div, h1, h2, h3, h4, a, p, li, input, select, label, form{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.sprite{
+    background-image: url(img/sprite.png);
+    background-repeat: no-repeat;
+}
+
+.wrap{
+    width: 981px;
+    margin: 0 auto;
+}
+.wrap2{
+    width: 1052px;
+    margin: 0 auto;
+}
+
+.clearLeft{
+    clear:left;
+}
+
+.clearRight{
+    clear:right;
+}
+
+
+body{
+    margin:0;
+    padding:0;    
+}
+
+header{
+    height: 83px;
+    background-color: #3b5998;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+}
+
+header form{
+    width:510px;
+    min-height: 50px;
+    float: right;  
+    padding-top: 17px;
+}
+
+header form label{
+    display: block;
+    width:150px;
+    float:left;
+    font-size: 12px;
+    font-weight:400;
+    color:white;
+}
+
+header form input{
+    width:150px;
+    display:block;
+    float: left;
+    height:23px;
+    border:solid 1px #1d2a5b;
+}
+
+header form input[type="submit"]{
+    width: 77px;
+    height:25px;
+    margin-left: 48px;
+    background-color: #4267b2;
+    border :solid 1px #29487d;
+    border-radius:2px;
+    color:white;
+    font-weight: 700;
+    float:left;
+}
+
+header form .spaceMountain{
+    margin-left: 14px;
+}
+
+header form a{
+    color:#9cb4d8;
+    font-size: 12px;
+    display: block;
+    margin-left: 163px;
+}
+
+h1{
+    color: white;
+    width: 171px;
+    height: 36px;
+    margin-top: 31px;
+    padding-top: 36px;
+    overflow: hidden;  
+    float:left;
+}
+
+.page{
+    height: 600px;
+    background: linear-gradient(white, #D3D8E8); 
+}
+
+.devise{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+
+.map{
+    width: 542px;
+    float: left;
+}
+.page form{
+    width:400px;
+    float:right;
+}
+
+.page form h2{
+    margin-top:30px;
+    font-size:36px;
+}
+
+.page form h3{
+    margin: 10px 0 20px;
+    font-size:19px;
+    font-weight:normal;
+}
+.page form input{
+    margin-bottom:10px;
+    width:100%;
+    height:38px;
+    border:solid 1px #bdc7d8;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 10px;
+
+}
+.page form input::placeholder{
+    color:#a59999;
+}
+.page form .inputName{
+    display:inline-block;
+    width:193px;
+}
+.page form .inputNamemargr{
+    margin-right:10px;
+}
+
+h4 {
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.datebirth {
+
+}
+
+.datebirth select {
+    font-size: 13px;
+    height: 30px;
+    display: block; 
+    float: left;
+    border: 1px solid #bdc7d8; 
+}
+
+.datebirth a {
+    margin-left: 10px;
+    font-size: 11px; 
+    max-width: 150px;
+    display: block;
+    float: left;
+    padding-top: 5px;
+}
+
+.page form label{ 
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+
+.page form input[type="radio"] {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+}    
+.genre{
+    clear:left;
+    padding-top: 20px;
+}
+
+.desciption{
+    font-size: 11px;
+    color : grey;
+    width: 316px;
+}
+.page form input.boutton{
+    background: linear-gradient(#79bc64, #578843); 
+    font-size: 19px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    width: 194px;
+    height: 39px;
+    padding: 7px 20px;
+    color:white;
+    box-shadow: inset 0 1px 1px #a4e388;
+    margin-top: 20px;
+}
+.desciption2{
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 37px;
+}
+
+footer .langue{
+    display: flex;
+    list-style: none;
+    color: #737373;    
+    padding: 0;
+    border-bottom: 1px #dddfe2 solid;
+    padding-bottom: 16px;
+}
+
+.langue li{
+    margin-right: 15px;
+    font-size: 12px;       
+}
+
+.plus{    
+    display: block;
+    width: 30px;
+    height: 20px;    
+    background-color: #f6f7f9;
+    border: solid 1px #ced0d4;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 19px;
+    color: #676e7d;
+    text-align: center;
+}
+.mention {
+    list-style-type: none; 
+    padding-left: 0;    
+}
+.mention li{
+    position:relative;
+    display: block;
+    font-size: 12px; 
+    float: left;
+}
+.mention li.col1{
+    width: 105px;
+}
+.mention li.col2{
+    width: 96px;
+}
+.mention li.col3{
+    width: 88px;
+}
+.mention li.col4{
+    width: 97px;
+}
+.mention li.col5{
+    width: 93px;
+}
+.mention li.col6{
+    width: 130px;
+}
+.mention li.col7{
+    width: 83px;
+}
+.mention li.col8{
+    width: 74px;
+}
+.mention li.col9{
+    width: 71px;
+}
+.mention li.col10{
+    width: 106px;
+}
+.mention li.col11{
+    width: 105px;
+}
+.mention li a.pub::after{
+    position:absolute;
+    top:0px;
+    right:0;
+    display: block;
+    content:'';
+    width: 16px;
+    height: 16px;
+    background: url(img/sprite.png) -106px -72px;
+}
+
